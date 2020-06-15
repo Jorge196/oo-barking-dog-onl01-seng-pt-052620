@@ -1,6 +1,6 @@
 # Your code goes here!
 class Dog
-  def name=(dog_name)
+  def name=("fido")
     @name = name
   end
 
@@ -8,6 +8,3 @@ class Dog
     @name
   end
 end
-
-fido = Dog.new
-fido.name = "Fido"
